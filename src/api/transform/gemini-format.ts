@@ -1,5 +1,5 @@
 import { Anthropic } from "@anthropic-ai/sdk"
-import { Content, EnhancedGenerateContentResponse, InlineDataPart, Part, TextPart } from "generative-ai-baipiao-ansatz"
+import { Content, EnhancedGenerateContentResponse, InlineDataPart, Part, TextPart } from "generative-ai-ansatz"
 
 export function convertAnthropicContentToGemini(content: string | Anthropic.ContentBlockParam[]): Part[] {
 	if (typeof content === "string") {

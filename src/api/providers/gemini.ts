@@ -1,5 +1,5 @@
 import { Anthropic } from "@anthropic-ai/sdk"
-import { GoogleGenerativeAI } from "generative-ai-baipiao-ansatz"
+import { GoogleGenerativeAI } from "generative-ai-ansatz"
 import { withRetry } from "../retry"
 import { ApiHandler } from "../"
 import { ApiHandlerOptions, geminiDefaultModelId, GeminiModelId, geminiModels, ModelInfo } from "../../shared/api"
